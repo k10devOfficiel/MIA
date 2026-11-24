@@ -5,10 +5,14 @@
 .venv/
 venv/
 
-# Cache Python
+# Cache Python et tests
 __pycache__/
 *.py[cod]
 *$py.class
+.pytest_cache/
+
+# Fichiers sources lourds d'assets
+assets_source/
 
 # Base de donnees locale SQLite
 *.db
